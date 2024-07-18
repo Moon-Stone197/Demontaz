@@ -1,3 +1,8 @@
+* {
+    margin: 0; 
+    padding: 0;
+}
+
 h1 {
     text-align: center;
     font-style: italic;
@@ -13,11 +18,19 @@ hr {
     border: none;
 }
 
+.header {
+    margin: 0 auto;
+    padding: 20px 0;
+}
+
 .wrapper {
     background-color: #635c5c;
-    padding: 0 250px;
+    padding: 0 0px;
     display: flex;
     align-items: center;
+    margin: 0 auto;
+    position: relative;
+    width: 100%;
 }
 
 .wrapper p {
